@@ -1,0 +1,22 @@
+.sidebar {
+  width: 100%;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.stock-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

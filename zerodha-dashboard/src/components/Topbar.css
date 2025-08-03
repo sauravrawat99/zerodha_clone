@@ -1,0 +1,33 @@
+.topbar-container {
+  background: #f8f8f8;
+  padding:  8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+.indices-container {
+  display: flex;
+  gap: 20px;
+}
+
+.index-block {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.index {
+  font-weight: bold;
+}
+
+.index-points {
+  color: black;
+}
+
+.percent.red {
+  color: red;
+}
+
+.percent.green {
+  color: green;
+}
