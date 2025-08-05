@@ -5,9 +5,13 @@
   display: flex;
 }
 
-.indices-container {
+.indices-container  {
   display: flex;
   gap: 20px;
+}
+.indices-container p{
+  font-size: 15px;
+  font-weight:lighter;
 }
 
 .index-block {
@@ -17,7 +21,7 @@
 }
 
 .index {
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .index-points {

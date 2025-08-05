@@ -36,7 +36,7 @@ const styles = {
     overflow: "hidden",
   },
   leftSection: {
-    width: "40%",
+    width: "35%",
     backgroundColor: "#f0f0f0",
     overflowY: "auto",
     height: "100%",
@@ -45,10 +45,10 @@ const styles = {
   scrollable: {
     height: "100%",
     overflowY: "auto",
-    padding: "10px",
+    padding: "1px",
   },
   rightSection: {
-    width: "60%",
+    width: "65%",
     display: "flex",
     flexDirection: "column",
     height: "100%",
