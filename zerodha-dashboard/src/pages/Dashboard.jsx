@@ -80,7 +80,7 @@ const Dashboard = () => {
         </div>
         <div className="col">
           <img
-            src="public\images\Screenshot (49).png"
+            src="\images\Screenshot (49).png"
             alt="refer"
             style={{ width: "200px" }}
           />

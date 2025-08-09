@@ -10,6 +10,8 @@ import Support from "./landing_page/Support/SupportPage";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
 import NotFound from "./landing_page/NotFound";
+import Login from "./auth/Login";
+import Register from "./auth/Ragister";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
         <Route path="/Products" element={<Products />} />
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/Support" element={<Support />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
